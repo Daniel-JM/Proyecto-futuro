@@ -15,7 +15,7 @@ public class proyectoFuturo {
         System.out.println(veredicto("23", "23"));
     }
 
-    private static String veredicto(String valor1, String valor2) {
+    public static String veredicto(String valor1, String valor2) {
         System.out.println("Paramaetros pasados: p1(" + valor1 + ") y p2 (" + valor2 + ")");
         
         if (valor1.equals(valor2)) {
